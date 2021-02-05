@@ -1,0 +1,2 @@
+sudo timedatectl
+sudo ifconfig
