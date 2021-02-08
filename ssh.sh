@@ -14,4 +14,8 @@ dpkg-reconfigure openssh-server
 #just for shits and giggles we can verify tht the SSH key hashes are diffrent
 #still in the /etc/shh/ dir
 md5sum ssh_host_*
+cd default_kali_keys/
+md5sum *
+#finish it off with a restart to the SSH server
+
 
